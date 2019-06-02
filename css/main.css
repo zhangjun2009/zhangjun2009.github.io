@@ -2065,7 +2065,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0a36e2;
+  background: #3da2af;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3240,4 +3240,21 @@ img:hover {
   .post-body {
     text-align: justify;
   }
+}
+body {
+  background: url("https://images.pexels.com/photos/2339126/pexels-photo-2339126.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+.main-inner {
+  background: #fff;
+  opacity: 0.8;
+}
+.header-inner {
+  opacity: 0.8;
+}
+.footer-inner {
+  color: #fffafa;
 }
