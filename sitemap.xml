@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zhangjun2009.github.io/about/index.html</loc>
+    
+    <lastmod>2019-06-02T04:15:11.111Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zhangjun2009.github.io/2019/06/01/Test/</loc>
     
     <lastmod>2019-06-01T10:18:53.761Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://zhangjun2009.github.io/tags/index.html</loc>
     
     <lastmod>2019-06-01T08:46:21.136Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhangjun2009.github.io/about/index.html</loc>
-    
-    <lastmod>2019-06-01T08:29:08.400Z</lastmod>
     
   </url>
   

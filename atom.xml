@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>我就是我,不一样的自我.</title>
   
-  <subtitle>一个搬代码的程序员</subtitle>
+  <subtitle>一个搬不动代码的程序员</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhangjun2009.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://zhangjun2009.github.io/</id>
   
   <author>
-    <name>张军</name>
+    <name>张 军</name>
     
   </author>
   
