@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhangjun2009.github.io/"/>
-  <updated>2019-06-03T16:25:10.426Z</updated>
+  <updated>2019-06-04T15:53:21.948Z</updated>
   <id>https://zhangjun2009.github.io/</id>
   
   <author>
@@ -17,54 +17,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>2019-6-3未命名文件</title>
-    <link href="https://zhangjun2009.github.io/2019/06/04/linux/"/>
-    <id>https://zhangjun2009.github.io/2019/06/04/linux/</id>
-    <published>2019-06-03T16:02:08.297Z</published>
-    <updated>2019-06-03T16:25:10.426Z</updated>
+    <title>Linux基础知识</title>
+    <link href="https://zhangjun2009.github.io/2019/06/04/linux1/"/>
+    <id>https://zhangjun2009.github.io/2019/06/04/linux1/</id>
+    <published>2019-06-04T14:58:09.334Z</published>
+    <updated>2019-06-04T15:53:21.948Z</updated>
     
-    <content type="html"><![CDATA[<p>欢迎使用 <strong>{小书匠}(xiaoshujiang)编辑器</strong>，您可以通过 <code>小书匠主按钮&gt;模板</code> 里的模板管理来改变新建文章的内容。</p><ol><li>linux图片</li><li>333</li><li>2222</li><li>222</li><li>List item<img src="//zhangjun2009.github.io/2019/06/04/linux/1.png" alt="enter description here"></li></ol><h1 id><a href="#" class="headerlink" title></a><i class="fas fa-hand-holding-usd"></i></h1>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;欢迎使用 &lt;strong&gt;{小书匠}(xiaoshujiang)编辑器&lt;/strong&gt;，您可以通过 &lt;code&gt;小书匠主按钮&amp;gt;模板&lt;/code&gt; 里的模板管理来改变新建文章的内容。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;linux图片&lt;/li&gt;
-&lt;li&gt;333&lt;/li&gt;
-&lt;li
-      
-    
-    </summary>
-    
-    
-      <category term="新建,模板,小书匠" scheme="https://zhangjun2009.github.io/tags/%E6%96%B0%E5%BB%BA-%E6%A8%A1%E6%9D%BF-%E5%B0%8F%E4%B9%A6%E5%8C%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Test</title>
-    <link href="https://zhangjun2009.github.io/2019/06/01/Test/"/>
-    <id>https://zhangjun2009.github.io/2019/06/01/Test/</id>
-    <published>2019-06-01T10:15:21.000Z</published>
-    <updated>2019-06-02T04:24:20.930Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是我的测试博客…….哒哒哒哒哒哒哒哒哒哒哒哒达<br><img src="http://b231.photo.store.qq.com/psb?/sa14V1341v9C3xYYfz32f82908c33db44ec4dad34c1044863fac14V13Uco002gwuNw/g.l8GOoKLZX41cuwlAglzx1bne5qf.Rls7I9ex15krw!/b/dOcAAAAAAAAA&bo=OASgBQAAAAARF7k!&rf=viewer_4" alt="图片"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="linux下”-“和”-”的区别"><a href="#linux下”-“和”-”的区别" class="headerlink" title=" linux下”/“和”~”的区别"></a> <strong>linux下”/“和”~”的区别</strong></h2><blockquote><p> “/“是linux的根目录,”~”是linux的家目录.我们知道linux是个文件系统,一切皆文件,存储是以挂载的方式,硬盘是挂在文件上的,每个文件都有层级关系,就像一颗树一样,而”/“就是树的头.linux种每个用户都有”家目录”,如果我们新增用户test,则test用户的家目录就是/home/test,新增用户系统会自动帮我们创建好这个目录,特别提示,<strong><em>root用户的家目录是/root</em></strong></p></blockquote><h2 id="init-命令的使用"><a href="#init-命令的使用" class="headerlink" title="init 命令的使用"></a><strong>init 命令的使用</strong></h2><blockquote><p> <code>init 0</code>: <code>关机,停止所有进程</code><br>   <code>init 6</code>: <code>重启机器</code> </p></blockquote><h2 id="linux特殊符号"><a href="#linux特殊符号" class="headerlink" title="linux特殊符号"></a><strong>linux特殊符号</strong></h2><blockquote><ul><li><p><em>管道符号: “|”</em><br> 把前一个命令的输出结果给后一个命令执行,more/head/cat/grep/wc……等命令支持放在管道符号后面.<br>cat /etc/passwd | grep ‘root’ -&gt; 过滤出/etc/passwd中含有’root’的行</p></li><li><p><em>追加符号:”&gt;&gt;”</em><br> 把之前一个命令输出的结果追加到某个文件<br>head -3 /etc/passwd &gt;&gt; /tmp/test.md -&gt; 把/etc/passwd文件前3行追加到/tem/test.md文件结尾</p></li><li><p><em>覆盖符号:”&gt;”</em><br>把之前一个命令的输出结果覆盖到某个文件<br>head -3 /etc/passwd &gt; /tmp/test.md -&gt;用/etc/passwd文件前3行覆盖/tem/test.md文件内容</p></li><li><p>*连接符号:”; “<br>执行多个命令,并放在一行执行,命令之间用”; “隔开<br>mkdir /tmp/music ; mv /tmp/music /usr/local -&gt;创建文件music之后移动到/usr/local目录下</p></li><li><p><em>后台执行:”&amp;”</em><br>当要把命令放在后台执行时，在命令的后面加上“&amp;”</p></li><li><p><em>`command` 倒引号</em><br>倒引号里的命令要提前执行,执行的结果带入的后面的执行命令中</p></li></ul></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;这是我的测试博客…….哒哒哒哒哒哒哒哒哒哒哒哒达&lt;br&gt;&lt;img src=&quot;http://b231.photo.store.qq.com/psb?/sa14V1341v9C3xYYfz32f82908c33db44ec4dad34c1044863fac14V13Uco002
+        &lt;h2 id=&quot;linux下”-“和”-”的区别&quot;&gt;&lt;a href=&quot;#linux下”-“和”-”的区别&quot; class=&quot;headerlink&quot; title=&quot; linux下”/“和”~”的区别&quot;&gt;&lt;/a&gt; &lt;strong&gt;linux下”/“和”~”的区别&lt;/strong&gt;&lt;/h
       
     
     </summary>
     
-      <category term="test" scheme="https://zhangjun2009.github.io/categories/test/"/>
+      <category term="linux" scheme="https://zhangjun2009.github.io/categories/linux/"/>
     
     
-      <category term="test" scheme="https://zhangjun2009.github.io/tags/test/"/>
+      <category term="linux" scheme="https://zhangjun2009.github.io/tags/linux/"/>
     
   </entry>
   

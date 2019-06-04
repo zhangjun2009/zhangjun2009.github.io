@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[2019-6-3未命名文件]]></title>
-    <url>%2F2019%2F06%2F04%2Flinux%2F</url>
-    <content type="text"><![CDATA[欢迎使用 {小书匠}(xiaoshujiang)编辑器，您可以通过 小书匠主按钮&gt;模板 里的模板管理来改变新建文章的内容。 linux图片 333 2222 222 List item]]></content>
-      <tags>
-        <tag>新建,模板,小书匠</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Test]]></title>
-    <url>%2F2019%2F06%2F01%2FTest%2F</url>
-    <content type="text"><![CDATA[这是我的测试博客…….哒哒哒哒哒哒哒哒哒哒哒哒达]]></content>
+    <title><![CDATA[Linux基础知识]]></title>
+    <url>%2F2019%2F06%2F04%2Flinux1%2F</url>
+    <content type="text"><![CDATA[linux下”/“和”~”的区别 “/“是linux的根目录,”~”是linux的家目录.我们知道linux是个文件系统,一切皆文件,存储是以挂载的方式,硬盘是挂在文件上的,每个文件都有层级关系,就像一颗树一样,而”/“就是树的头.linux种每个用户都有”家目录”,如果我们新增用户test,则test用户的家目录就是/home/test,新增用户系统会自动帮我们创建好这个目录,特别提示,root用户的家目录是/root init 命令的使用 init 0: 关机,停止所有进程 init 6: 重启机器 linux特殊符号 管道符号: “|” 把前一个命令的输出结果给后一个命令执行,more/head/cat/grep/wc……等命令支持放在管道符号后面.cat /etc/passwd | grep ‘root’ -&gt; 过滤出/etc/passwd中含有’root’的行 追加符号:”&gt;&gt;” 把之前一个命令输出的结果追加到某个文件head -3 /etc/passwd &gt;&gt; /tmp/test.md -&gt; 把/etc/passwd文件前3行追加到/tem/test.md文件结尾 覆盖符号:”&gt;”把之前一个命令的输出结果覆盖到某个文件head -3 /etc/passwd &gt; /tmp/test.md -&gt;用/etc/passwd文件前3行覆盖/tem/test.md文件内容 *连接符号:”; “执行多个命令,并放在一行执行,命令之间用”; “隔开mkdir /tmp/music ; mv /tmp/music /usr/local -&gt;创建文件music之后移动到/usr/local目录下 后台执行:”&amp;”当要把命令放在后台执行时，在命令的后面加上“&amp;” `command` 倒引号倒引号里的命令要提前执行,执行的结果带入的后面的执行命令中]]></content>
       <categories>
-        <category>test</category>
+        <category>linux</category>
       </categories>
       <tags>
-        <tag>test</tag>
+        <tag>linux</tag>
       </tags>
   </entry>
   <entry>
