@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhangjun2009.github.io/"/>
-  <updated>2019-06-09T03:57:25.580Z</updated>
+  <updated>2019-06-09T15:17:00.326Z</updated>
   <id>https://zhangjun2009.github.io/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>队列</title>
+    <link href="https://zhangjun2009.github.io/2019/06/09/%E9%98%9F%E5%88%97/"/>
+    <id>https://zhangjun2009.github.io/2019/06/09/队列/</id>
+    <published>2019-06-09T14:56:44.160Z</published>
+    <updated>2019-06-09T15:17:00.326Z</updated>
+    
+    <content type="html"><![CDATA[<p>&ensp;&ensp;&ensp;&ensp;队列是一种线性存储结构,他是按照FIFO(first in first out)先进先出的方式来进出队列的,并且规定队列只能在队首进行删除操作,在队尾进行添加操作,分别称为”出队”和”入队”.<br><img src="/2019/06/09/队列/1.png" alt="enter description here"></p><p><a href="https://github.com/zhangjun2009/ymm/blob/master/src/main/java/com/zhangj/ymm/data_struct/ArrayQueue.java" target="_blank" rel="noopener">队列的java实现</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;队列是一种线性存储结构,他是按照FIFO(first in first out)先进先出的方式来进出队列的,并且规定队列只能在队首进行删除操作,在队尾进行添加操作,分别称为”出队”和”入队”.&lt;br&gt;&lt;img src=&quot;/20
+      
+    
+    </summary>
+    
+      <category term="数据结构" scheme="https://zhangjun2009.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+      <category term="队列" scheme="https://zhangjun2009.github.io/tags/%E9%98%9F%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>栈</title>
+    <link href="https://zhangjun2009.github.io/2019/06/09/%E6%A0%88/"/>
+    <id>https://zhangjun2009.github.io/2019/06/09/栈/</id>
+    <published>2019-06-09T14:19:29.948Z</published>
+    <updated>2019-06-09T14:54:16.060Z</updated>
+    
+    <content type="html"><![CDATA[<p>&ensp;&ensp;&ensp;&ensp;栈是一种线性存储结构,按照后进先出(LIFO,last in first out)方式出入栈,栈的添加,删除操作只能在栈顶进行.<br>栈通常有三种操作:</p><ol><li>push-&gt;栈顶添加元素</li><li>peek-&gt;返回栈顶元素,不删除</li><li>pop-&gt;返回并删除栈顶元素<br><img src="/2019/06/09/栈/1.png" alt="enter description here"></li></ol><p><a href="https://github.com/zhangjun2009/ymm/blob/master/src/main/java/com/zhangj/ymm/data_struct/ArrayStack.java" target="_blank" rel="noopener">栈的java实现代码</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;栈是一种线性存储结构,按照后进先出(LIFO,last in first out)方式出入栈,栈的添加,删除操作只能在栈顶进行.&lt;br&gt;栈通常有三种操作:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;push-&amp;gt;栈顶添加元素&lt;/li&gt;
+&lt;
+      
+    
+    </summary>
+    
+      <category term="数据结构" scheme="https://zhangjun2009.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+      <category term="栈" scheme="https://zhangjun2009.github.io/tags/%E6%A0%88/"/>
+    
+  </entry>
   
   <entry>
     <title>线性数据结构</title>
