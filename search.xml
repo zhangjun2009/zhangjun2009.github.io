@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[数组]]></title>
+    <title><![CDATA[线性数据结构]]></title>
     <url>%2F2019%2F06%2F09%2F%E6%95%B0%E7%BB%841%2F</url>
-    <content type="text"><![CDATA[数组属于线性表,它是具有相同类型的N个数据元素的有序组成, 数组有上下界的,且上下界内的元素是连续的. 数组的特点:数组里的元素是连续的,随机访问速度快.]]></content>
+    <content type="text"><![CDATA[&ensp;&ensp;&ensp;&ensp;数组属于线性表,它是具有相同类型的N个数据元素的有序组成,数组有上下界的,且上下界内的元素是连续的.数组的特点:数组里的元素是连续的,随机访问速度快. &ensp;&ensp;&ensp;&ensp;双向链表也是由节点组成,每个节点包含该节点的值,直接前驱节点,直接后继节点,单向链表,由节点组成,每个节点包括节点的值和指向下一节点的指针.单链表的特点:随机访问速度较慢,但是新增/删除的效率很高. &ensp;&ensp;&ensp;&ensp;双向链表也是由节点组成,每个节点包含该节点的值,直接前驱节点,直接后继节点,双链表的java实现github地址]]></content>
       <categories>
         <category>数据结构</category>
       </categories>
       <tags>
-        <tag>数组</tag>
+        <tag>数据结构</tag>
       </tags>
   </entry>
   <entry>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhangjun2009.github.io/"/>
-  <updated>2019-06-09T01:53:56.447Z</updated>
+  <updated>2019-06-09T03:57:25.580Z</updated>
   <id>https://zhangjun2009.github.io/</id>
   
   <author>
@@ -17,19 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>数组</title>
+    <title>线性数据结构</title>
     <link href="https://zhangjun2009.github.io/2019/06/09/%E6%95%B0%E7%BB%841/"/>
     <id>https://zhangjun2009.github.io/2019/06/09/数组1/</id>
     <published>2019-06-09T01:30:21.398Z</published>
-    <updated>2019-06-09T01:53:56.447Z</updated>
+    <updated>2019-06-09T03:57:25.580Z</updated>
     
-    <content type="html"><![CDATA[<p>  数组属于线性表,它是具有相同类型的N个数据元素的有序组成,<br>  数组有上下界的,且上下界内的元素是连续的.<br> <img src="/2019/06/09/数组1/1.png" alt="enter description here"><br> 数组的特点:数组里的元素是连续的,随机访问速度快.</p>]]></content>
+    <content type="html"><![CDATA[<p>&ensp;&ensp;&ensp;&ensp;数组属于线性表,它是具有相同类型的N个数据元素的有序组成,数组有上下界的,且上下界内的元素是连续的.<br><strong><em>数组的特点:数组里的元素是连续的,随机访问速度快.</em></strong><br><img src="/2019/06/09/数组1/1.png" alt="enterdescription here"> </p><p>&ensp;&ensp;&ensp;&ensp;双向链表也是由节点组成,每个节点包含该节点的值,直接前驱节点,直接后继节点,<br>单向链表,由节点组成,每个节点包括节点的值和指向下一节点的指针.<br><strong><em>单链表的特点:随机访问速度较慢,但是新增/删除的效率很高.</em></strong><br><img src="/2019/06/09/数组1/2.png" alt="enter description here"><br><img src="/2019/06/09/数组1/3.png" alt="enter description here"><br><img src="/2019/06/09/数组1/4.png" alt="enter description here"></p><p>&ensp;&ensp;&ensp;&ensp;双向链表也是由节点组成,每个节点包含该节点的值,直接前驱节点,直接后继节点,<br><img src="/2019/06/09/数组1/5.png" alt="enter description here"><br><img src="/2019/06/09/数组1/6.png" alt="enter description here"><br><img src="/2019/06/09/数组1/7.png" alt="enter description here"><br><a href="https://github.com/zhangjun2009/ymm/blob/master/src/main/java/com/zhangj/ymm/data_struct/DoubleLink.java" target="_blank" rel="noopener">双链表的java实现github地址</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;  数组属于线性表,它是具有相同类型的N个数据元素的有序组成,&lt;br&gt;  数组有上下界的,且上下界内的元素是连续的.&lt;br&gt; &lt;img src=&quot;/2019/06/09/数组1/1.png&quot; alt=&quot;enter description here&quot;&gt;&lt;br&gt; 数组的特点:数
+        &lt;p&gt;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;数组属于线性表,它是具有相同类型的N个数据元素的有序组成,数组有上下界的,且上下界内的元素是连续的.&lt;br&gt;&lt;strong&gt;&lt;em&gt;数组的特点:数组里的元素是连续的,随机访问速度快.&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;&lt;img
       
     
     </summary>
@@ -37,7 +37,7 @@
       <category term="数据结构" scheme="https://zhangjun2009.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     
-      <category term="数组" scheme="https://zhangjun2009.github.io/tags/%E6%95%B0%E7%BB%84/"/>
+      <category term="数据结构" scheme="https://zhangjun2009.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
