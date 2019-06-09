@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhangjun2009.github.io/"/>
-  <updated>2019-06-04T15:53:21.948Z</updated>
+  <updated>2019-06-09T01:53:56.447Z</updated>
   <id>https://zhangjun2009.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数组</title>
+    <link href="https://zhangjun2009.github.io/2019/06/09/%E6%95%B0%E7%BB%841/"/>
+    <id>https://zhangjun2009.github.io/2019/06/09/数组1/</id>
+    <published>2019-06-09T01:30:21.398Z</published>
+    <updated>2019-06-09T01:53:56.447Z</updated>
+    
+    <content type="html"><![CDATA[<p>  数组属于线性表,它是具有相同类型的N个数据元素的有序组成,<br>  数组有上下界的,且上下界内的元素是连续的.<br> <img src="/2019/06/09/数组1/1.png" alt="enter description here"><br> 数组的特点:数组里的元素是连续的,随机访问速度快.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;  数组属于线性表,它是具有相同类型的N个数据元素的有序组成,&lt;br&gt;  数组有上下界的,且上下界内的元素是连续的.&lt;br&gt; &lt;img src=&quot;/2019/06/09/数组1/1.png&quot; alt=&quot;enter description here&quot;&gt;&lt;br&gt; 数组的特点:数
+      
+    
+    </summary>
+    
+      <category term="数据结构" scheme="https://zhangjun2009.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+      <category term="数组" scheme="https://zhangjun2009.github.io/tags/%E6%95%B0%E7%BB%84/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux基础知识</title>
