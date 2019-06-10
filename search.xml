@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>%2F2019%2F06%2F10%2F%E4%BA%8C%E5%8F%89%E6%9F%A5%E6%89%BE%E6%A0%91%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[队列]]></title>
     <url>%2F2019%2F06%2F09%2F%E9%98%9F%E5%88%97%2F</url>
     <content type="text"><![CDATA[&ensp;&ensp;&ensp;&ensp;队列是一种线性存储结构,他是按照FIFO(first in first out)先进先出的方式来进出队列的,并且规定队列只能在队首进行删除操作,在队尾进行添加操作,分别称为”出队”和”入队”. 队列的java实现]]></content>
