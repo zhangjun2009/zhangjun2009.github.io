@@ -94,7 +94,7 @@
 <meta property="og:image" content="https://images0.cnblogs.com/i/497634/201403/270930282184259.jpg">
 <meta property="og:image" content="https://images0.cnblogs.com/i/497634/201403/270932052801072.jpg">
 <meta property="og:image" content="https://images0.cnblogs.com/i/497634/201403/270932554522177.jpg">
-<meta property="og:updated_time" content="2019-06-13T02:31:28.434Z">
+<meta property="og:updated_time" content="2019-06-13T14:34:57.636Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="二叉树">
 <meta name="twitter:description" content="树的介绍 树的定义&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;树是一种数据结构,它是由n(n&amp;gt;=1)个有限节点组成的一个具有层次关系的集合.它具有一下特点:(1):每个节点有零个或者多个子节点(2):根节点没有父节点(3):除了根节点外,其他节点都只有一个父节点(4):除了根节点外,每个子节点可以分为多个不相交的子树  树的基本术语“双亲”:若一个节点有子树,则该节点称为子树的根的”双亲">
@@ -402,7 +402,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  817
+                  825
                 </span>
               
 
@@ -446,15 +446,22 @@
 </li>
 </ol>
 <h2 id="二叉树的介绍"><a href="#二叉树的介绍" class="headerlink" title="二叉树的介绍"></a>二叉树的介绍</h2><ul>
-<li><p>二叉树的定义<br>二叉树的节点最多只有2个子树,有五种形态:空二叉树,只有一个根节点,一个根节点和左子树,一个根节点和右子树,一个根节点和左右子树.<br><img src="/2019/06/10/二叉查找树/1.png" alt="enter description here"></p>
+<li><p>二叉树的定义<br>二叉树的节点最多只有2个子树,有五种形态:空二叉树,只有一个根节点,一个根节点和左子树,一个根节点和右子树,一个根节点和左右子树.</p>
+<p><img src="/2019/06/10/二叉查找树/1.png" alt="enter description here"></p>
 </li>
 <li><p>二叉树的性质<br>(1):二叉树第i层上最多有2^(i-1) (i≥1)个节点<br>(2):深度为k的二叉树,最多有2^k - 1个节点<br>(3):拥有n个节点的二叉树,高度至少为log2 (n+1)<br>(4):度为0的节点个数A,度为2的节点个数B,A = B+1</p>
 </li>
-<li><p>满二叉树<br>定义:高度为h,且有2^h -1个节点的二叉树<br><img src="https://images0.cnblogs.com/i/497634/201403/270930282184259.jpg" alt="enter description here"></p>
+<li><p>满二叉树<br>定义:高度为h,且有2^h -1个节点的二叉树</p>
+<p><img src="https://images0.cnblogs.com/i/497634/201403/270930282184259.jpg" alt="enter description here"></p>
 </li>
-<li><p>完全二叉树<br>定义: 一颗二叉树中只有最下面二层节点的度可以是2,并且最下面一层的叶子节点集中在左边,叶子节点只能出现在最下层和次下层,且最下层的叶子节点集中在树的左边.<br><img src="https://images0.cnblogs.com/i/497634/201403/270930282184259.jpg" alt="enter description here"></p>
+<li><p>完全二叉树<br>定义: 一颗二叉树中只有最下面二层节点的度可以是2,并且最下面一层的叶子节点集中在左边,叶子节点只能出现在最下层和次下层,且最下层的叶子节点集中在树的左边.</p>
 </li>
-<li><p>二叉查找树<br>定义:任意节点的左子树都小于等于该节点的值,右子树都大于等于该节点的值.<br><img src="https://images0.cnblogs.com/i/497634/201403/270932052801072.jpg" alt="enter description here"><br>在二叉查找树中:<br>(1):若任意节点的左子树不为空,则左子树上的所有节点的值都小于它根节点的值<br>(2):若任意节点的右子树不为空,则右子树上的所有节点的值都大于它根节点的值<br>(3):没有值相等的节点</p>
+</ul>
+<p><img src="https://images0.cnblogs.com/i/497634/201403/270930282184259.jpg" alt="enter description here"></p>
+<ul>
+<li><p>二叉查找树<br>定义:任意节点的左子树都小于等于该节点的值,右子树都大于等于该节点的值.</p>
+<p><img src="https://images0.cnblogs.com/i/497634/201403/270932052801072.jpg" alt="enter description here"></p>
+<p>在二叉查找树中:<br>(1):若任意节点的左子树不为空,则左子树上的所有节点的值都小于它根节点的值<br>(2):若任意节点的右子树不为空,则右子树上的所有节点的值都大于它根节点的值<br>(3):没有值相等的节点</p>
 <p>二叉树的遍历:</p>
 </li>
 <li><p>前序遍历<br>若二叉树非空<br>(1):访问根节点<br>(2):先序遍历左子树<br>(3):先序遍历右子树</p>
@@ -462,10 +469,12 @@
 <li><p>中序遍历<br>若二叉树非空<br>(1):中序遍历左子树<br>(2):访问根节点<br>(3):中序遍历右子树</p>
 </li>
 <li><p>后续遍历<br>若二叉树非空<br>(1):后序遍历左子树<br>(2):后序遍历右子树<br>(3):访问根节点</p>
-<p>例子:<br><img src="https://images0.cnblogs.com/i/497634/201403/270932554522177.jpg" alt="enter description here"></p>
-<p>(1):前序遍历结果:312546<br>(2):中序遍历结果:123456<br>(3):后序遍历结果:214653</p>
+<p>例子:</p>
+<p><img src="https://images0.cnblogs.com/i/497634/201403/270932554522177.jpg" alt="enter description here"></p>
 </li>
 </ul>
+<p> (1):前序遍历结果:312546<br> (2):中序遍历结果:123456<br> (3):后序遍历结果:214653</p>
+<p> <a href="https://github.com/zhangjun2009/ymm/blob/master/src/main/java/com/zhangj/ymm/data_struct/BinarySearchTree.java" target="_blank" rel="noopener">二叉查找树java实现</a></p>
 
       
     </div>
