@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhangjun2009.github.io/"/>
-  <updated>2019-06-15T11:43:51.042Z</updated>
+  <updated>2019-06-15T12:44:30.174Z</updated>
   <id>https://zhangjun2009.github.io/</id>
   
   <author>
@@ -17,16 +17,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>冒泡排序</title>
     <link href="https://zhangjun2009.github.io/2019/06/15/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/"/>
     <id>https://zhangjun2009.github.io/2019/06/15/冒泡排序/</id>
     <published>2019-06-15T11:43:51.042Z</published>
-    <updated>2019-06-15T11:43:51.042Z</updated>
+    <updated>2019-06-15T12:44:30.174Z</updated>
+    
+    <content type="html"><![CDATA[<p>&ensp;&ensp;&ensp;&ensp;冒泡排序会遍历若干次要排序的队列,每次排序时,从前往后依次比较相邻两个数的大小,如果前者比后者大,则交换它们的位置,这样一次遍历之后最大的元素就在队列末尾了,采用相同的方法再次遍历,第二大元素被排在最大元素前面,重复以上操作,直到整个队列都有序为止.<br>下面以数组{20,40,30,10,60,50}为例，演示它的冒泡排序过程(如下图)。<br><img src="/2019/06/15/冒泡排序/1.jpg" alt="冒泡排序"><br>冒泡排序的时间复杂度为O(N2)<br><a href="https://github.com/zhangjun2009/ymm/blob/master/src/main/java/com/zhangj/ymm/data_struct/BubbleSort.java" target="_blank" rel="noopener">冒泡排序java实现</a></p>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;p&gt;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;冒泡排序会遍历若干次要排序的队列,每次排序时,从前往后依次比较相邻两个数的大小,如果前者比后者大,则交换它们的位置,这样一次遍历之后最大的元素就在队列末尾了,采用相同的方法再次遍历,第二大元素被排在最大元素前面,重复以上操作,
+      
+    
     </summary>
     
+      <category term="排序" scheme="https://zhangjun2009.github.io/categories/%E6%8E%92%E5%BA%8F/"/>
+    
+    
+      <category term="冒泡排序" scheme="https://zhangjun2009.github.io/tags/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F/"/>
     
   </entry>
   

@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
+    <title><![CDATA[冒泡排序]]></title>
     <url>%2F2019%2F06%2F15%2F%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[&ensp;&ensp;&ensp;&ensp;冒泡排序会遍历若干次要排序的队列,每次排序时,从前往后依次比较相邻两个数的大小,如果前者比后者大,则交换它们的位置,这样一次遍历之后最大的元素就在队列末尾了,采用相同的方法再次遍历,第二大元素被排在最大元素前面,重复以上操作,直到整个队列都有序为止.下面以数组{20,40,30,10,60,50}为例，演示它的冒泡排序过程(如下图)。冒泡排序的时间复杂度为O(N2)冒泡排序java实现]]></content>
+      <categories>
+        <category>排序</category>
+      </categories>
+      <tags>
+        <tag>冒泡排序</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[红黑树]]></title>
