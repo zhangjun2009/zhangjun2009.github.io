@@ -81,13 +81,13 @@
 
 
 
-<meta name="description" content="AVL树的介绍&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;AVL树是二叉查找树,它的特点是树中任意节点的两个子树的高度之差不大于1.&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;图中左边是AVL树,右边不是AVL树,因为右边树节点7的两个子树高度差为2. AVL树的旋转&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;在AVL树种进行节点的新增,删除,可能导致AVL树的某个节点的两个子树的高度">
+<meta name="description" content="AVL树的介绍&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;AVL树是一种二叉树,它的特点是树中任意节点的两个子树的高度之差不大于1.&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;图中左边是AVL树,右边不是AVL树,因为右边树节点7的两个子树高度差为2,查找、插入和删除在平均和最坏情况下都是O（log n）。增加和删除可能需要通过一次或多次树旋转来重新平衡这个树。 AVL树的旋转&amp;ensp;">
 <meta name="keywords" content="平衡二叉树AVL">
 <meta property="og:type" content="article">
 <meta property="og:title" content="平衡二叉树AVL">
 <meta property="og:url" content="https://zhangjun2009.github.io/2019/06/14/AVL/index.html">
 <meta property="og:site_name" content="我就是我,不一样的自我.">
-<meta property="og:description" content="AVL树的介绍&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;AVL树是二叉查找树,它的特点是树中任意节点的两个子树的高度之差不大于1.&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;图中左边是AVL树,右边不是AVL树,因为右边树节点7的两个子树高度差为2. AVL树的旋转&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;在AVL树种进行节点的新增,删除,可能导致AVL树的某个节点的两个子树的高度">
+<meta property="og:description" content="AVL树的介绍&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;AVL树是一种二叉树,它的特点是树中任意节点的两个子树的高度之差不大于1.&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;图中左边是AVL树,右边不是AVL树,因为右边树节点7的两个子树高度差为2,查找、插入和删除在平均和最坏情况下都是O（log n）。增加和删除可能需要通过一次或多次树旋转来重新平衡这个树。 AVL树的旋转&amp;ensp;">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://zhangjun2009.github.io/2019/06/14/AVL/1.jpg">
 <meta property="og:image" content="https://zhangjun2009.github.io/2019/06/14/AVL/2.jpg">
@@ -96,10 +96,10 @@
 <meta property="og:image" content="https://zhangjun2009.github.io/2019/06/14/AVL/5.jpg">
 <meta property="og:image" content="https://zhangjun2009.github.io/2019/06/14/AVL/6.jpg">
 <meta property="og:image" content="https://zhangjun2009.github.io/2019/06/14/AVL/7.jpg">
-<meta property="og:updated_time" content="2019-06-14T03:36:14.398Z">
+<meta property="og:updated_time" content="2019-06-15T09:11:33.786Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="平衡二叉树AVL">
-<meta name="twitter:description" content="AVL树的介绍&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;AVL树是二叉查找树,它的特点是树中任意节点的两个子树的高度之差不大于1.&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;图中左边是AVL树,右边不是AVL树,因为右边树节点7的两个子树高度差为2. AVL树的旋转&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;在AVL树种进行节点的新增,删除,可能导致AVL树的某个节点的两个子树的高度">
+<meta name="twitter:description" content="AVL树的介绍&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;AVL树是一种二叉树,它的特点是树中任意节点的两个子树的高度之差不大于1.&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;图中左边是AVL树,右边不是AVL树,因为右边树节点7的两个子树高度差为2,查找、插入和删除在平均和最坏情况下都是O（log n）。增加和删除可能需要通过一次或多次树旋转来重新平衡这个树。 AVL树的旋转&amp;ensp;">
 <meta name="twitter:image" content="https://zhangjun2009.github.io/2019/06/14/AVL/1.jpg">
 
 
@@ -404,7 +404,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  446
+                  494
                 </span>
               
 
@@ -441,7 +441,7 @@
       
 
       
-        <h1 id="AVL树的介绍"><a href="#AVL树的介绍" class="headerlink" title="AVL树的介绍"></a>AVL树的介绍</h1><p>&ensp;&ensp;&ensp;&ensp;AVL树是<a href="https://zhangjun2009.github.io/2019/06/10/%E4%BA%8C%E5%8F%89%E6%9F%A5%E6%89%BE%E6%A0%91/">二叉查找树</a>,它的特点是树中任意节点的两个子树的高度之差不大于1.<br><img src="/2019/06/14/AVL/1.jpg" alt="enter description here"><br>&ensp;&ensp;&ensp;&ensp;图中左边是AVL树,右边不是AVL树,因为右边树节点7的两个子树高度差为2.</p>
+        <h1 id="AVL树的介绍"><a href="#AVL树的介绍" class="headerlink" title="AVL树的介绍"></a>AVL树的介绍</h1><p>&ensp;&ensp;&ensp;&ensp;AVL树是一种二叉树,它的特点是树中任意节点的两个子树的高度之差不大于1.<br><img src="/2019/06/14/AVL/1.jpg" alt="enter description here"><br>&ensp;&ensp;&ensp;&ensp;图中左边是AVL树,右边不是AVL树,因为右边树节点7的两个子树高度差为2,<br>查找、插入和删除在平均和最坏情况下都是O（log n）。增加和删除可能需要通过一次或多次树旋转来重新平衡这个树。</p>
 <h1 id="AVL树的旋转"><a href="#AVL树的旋转" class="headerlink" title="AVL树的旋转"></a>AVL树的旋转</h1><p>&ensp;&ensp;&ensp;&ensp;在AVL树种进行节点的新增,删除,可能导致AVL树的某个节点的两个子树的高度差大于1,破坏了AVL树的平衡.破坏平衡的方式有四种:LL(左左),LR(左右),RR(右右),RL(右左),下面是示意图:<br><img src="/2019/06/14/AVL/2.jpg" alt="enter description here"><br><img src="/2019/06/14/AVL/3.jpg" alt="enter description here"><br>(1)<strong>LL</strong>:插入或删除一个节点后,根节点的左子树的左子树还有非空的节点<br>(2)<strong>LR</strong>:插入或删除一个节点后,根节点的左子树的右子树还有非空节点<br>(3)<strong>RR</strong>:插入或删除一个节点后,根节点的右子树的右子树还有非空节点<br>(4)<strong>RL</strong>:插入或删除一个节点后,根节点的右子树的左子树还有非空节点</p>
 <p>&ensp;&ensp;&ensp;&ensp;LL失去平衡的情况,可以通过一次旋转让AVL树恢复平衡.<br><img src="/2019/06/14/AVL/4.jpg" alt="enter description here"><br>由于是LL情况,就是用手抓住”左孩子”k1旋转,使k1称为根节点,k2变成k1的右子树,k1的右子树变成k2的左子树.<br>&ensp;&ensp;&ensp;&ensp;RR失去平衡的情况正好和LL对称.<br><img src="/2019/06/14/AVL/5.jpg" alt="enter description here"><br>&ensp;&ensp;&ensp;&ensp;LR失去平衡的情况,需要经过2次旋转才能让AVL树恢复.第一次围绕k1进行RR旋转,第二次围绕k3进行LL旋转.<br><img src="/2019/06/14/AVL/6.jpg" alt="enter description here"><br>&ensp;&ensp;&ensp;&ensp;RL和LR是对称的情况,其恢复的方法如下:第一次围绕k3进行LL旋转,第二次围绕k1进行RR旋转.<br><img src="/2019/06/14/AVL/7.jpg" alt="enter description here"></p>
 
@@ -522,6 +522,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/06/15/RB树/" rel="prev" title="红黑树">
+                红黑树 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -629,7 +633,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -651,7 +655,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -775,7 +779,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">2.2k</span>
+    <span title="Site words total count">2.4k</span>
   
 </div>
 
