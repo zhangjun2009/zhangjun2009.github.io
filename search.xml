@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>%2F2019%2F06%2F15%2F%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[红黑树]]></title>
     <url>%2F2019%2F06%2F15%2FRB%E6%A0%91%2F</url>
     <content type="text"><![CDATA[红黑树的介绍&ensp;&ensp;&ensp;&ensp;红黑树是一种特殊的二叉查找树,每个节点的颜色可以是红色或者黑色.特征: 每个节点是红色或者黑色 根节点是黑色 每个叶子节点是黑色,这里的叶子节点指的是为空的叶子节点 如果一个节点的颜色为红色,则他的子节点必须为黑色 从一个节点到该节点的子孙节点的所有路径上包含相同数量的黑色节点红黑树示意图: 红黑树的所有操作时间复杂度为:O(lgn)]]></content>
