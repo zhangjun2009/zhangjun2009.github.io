@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhangjun2009.github.io/"/>
-  <updated>2019-06-15T12:44:30.174Z</updated>
+  <updated>2019-06-15T13:36:50.705Z</updated>
   <id>https://zhangjun2009.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>快速排序</title>
+    <link href="https://zhangjun2009.github.io/2019/06/15/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/"/>
+    <id>https://zhangjun2009.github.io/2019/06/15/快速排序/</id>
+    <published>2019-06-15T12:46:34.771Z</published>
+    <updated>2019-06-15T13:36:50.705Z</updated>
+    
+    <content type="html"><![CDATA[<p>&ensp;&ensp;&ensp;&ensp;快速排序采用分治法策略,排序过程是,选择一个基准数,通过一躺排序将要排序的数据分割成独立的两部分,其中一部分的所有数据都比另外一部分所有数据都要小,然后再按此方法对两部分数据分别进行快速排序,整个过程可以递归进行.<br>快速排序的过程:</p><ol><li>从数组中挑出一个基准值</li><li>将所有小于基准值的元素放在基准值前面,所有大于基准值的元素放在基准值后面,在这个分区退出之后,该基准值就处于数列的中间位置.</li><li>递归的把”基准值前面的数列”和”基准值后面的数列”进行排序.<br>下面以数列a={30,40,60,10,20,50}为例，演示它的快速排序过程(如下图)<br><img src="/2019/06/15/快速排序/1.jpg" alt="快速排序"><br><a href="https://github.com/zhangjun2009/ymm/blob/master/src/main/java/com/zhangj/ymm/data_struct/QuickSort.java" target="_blank" rel="noopener">快速排序java实现</a></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;快速排序采用分治法策略,排序过程是,选择一个基准数,通过一躺排序将要排序的数据分割成独立的两部分,其中一部分的所有数据都比另外一部分所有数据都要小,然后再按此方法对两部分数据分别进行快速排序,整个过程可以递归进行.&lt;br&gt;快速
+      
+    
+    </summary>
+    
+      <category term="排序" scheme="https://zhangjun2009.github.io/categories/%E6%8E%92%E5%BA%8F/"/>
+    
+    
+      <category term="快速排序" scheme="https://zhangjun2009.github.io/tags/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>冒泡排序</title>
